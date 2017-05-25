@@ -3456,7 +3456,7 @@ ngx_http_upsync_timeout_handler(ngx_event_t *event)
 
     upsync_server = event->data;
 
-    ngx_log_error(NGX_LOG_ERR, event->log, 0,
+    ngx_log_error(NGX_LOG_INFO, event->log, 0,
                   "upsync_timeout: timed out reading upsync_server: %V ", 
                   upsync_server->pc.name);
 

@@ -25,3 +25,7 @@ git commit -a -m "copy submodules."
 git push
 
 ```
+
+# 代码修改
+
+1. 查找`upsync_timeout:` 修改上一行的NGX_LOG_ERR 改为 NGX_LOG_INFO
